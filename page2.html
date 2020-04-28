@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinking Dilettante</title>
+
+     <!-- Google Fonts | font-family: 'Reenie Beanie', cursive;
+font-family: 'Halant', serif;, cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&family=Reenie+Beanie&display=swap" rel="stylesheet">     
+    
+    <!-- Font Awesome -->
+    <!--    <i class="fab fa-instagram"></i>
+    <i class="far fa-envelope"></i>  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+     <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">    
+</head>
+
+<body>
+  <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
+    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
+    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <a class="navbar-brand disabled" href="#">DD</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+            <!-- This causes the links to move to the right -->
+            <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link disabled" href="page2.html">Featured Recipes</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+              <a class="btn btn-outline-dark btn-lg" href="page3.html">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+    <!-- Full width Jumbotron -->
+    <!-- https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+    <div class="jumbotron2 jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Recipes to Impress</h1 class="display-4">
+        </div>
+    </div>
+
+  <div class=container>
+    <ul class="list-unstyled">
+        <li class="media">
+          <img src="oceansidesquare.jpeg" class="align-self-center mr-3" alt="Oceanside">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Oceanside</h5>
+                <ul>
+                  <li>8 mint leaves</li>  
+                  <li>3/4 ounce Simple Syrup</li> 
+                  <li>2 ounces London dry gin</li> 
+                  <li>1 ounce fresh lime juice</li> 
+                  <li>Dash of celery bitters</li> 
+                  <li>Pinch of sea salt</li> 
+                  <li>Ice</li> 
+                </ul>
+            <h3>In a cocktail shaker, muddle 7 of the mint leaves with the Simple Syrup, then add the gin, lime juice, bitters and salt. Fill the shaker with ice and shake well.</h3>
+          </div>
+        </li>
+        <li class="media my-4">
+          <img src="agavekisssquare.jpeg" class="align-self-center mr-3" alt="Agave Kiss">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Agave Kiss</h5>
+            <ul>
+                <li>3 blackberries</li>  
+                <li>1 lime wedge</li> 
+                <li>1 cup ice</li> 
+                <li>1 1/2 ounces reposado tequila</li> 
+                <li>3/4 ounce fresh lime juice</li> 
+                <li>3/4 ounce simple syrup</li> 
+                <li>1/2 ounce Chambord</li> 
+                <li>1 ounce chilled club soda</li> 
+              </ul>
+          <h3>Skewer one blackberry and the lime wheel on a pick. In a cocktail shaker, muddle the remaining 2 blackberries. Add the ice, tequila, lime juice, Simple Syrup and Chambord. Shake well and pour into a rocks glass. Stir in the club soda and garnish with the skewered blackberry and lime wheel.</h3>
+          </div>
+        </li>
+        <li class="media">
+          <img src="voyagercocktailsquare.jpeg" class="align-self-center mr-3" alt="Voyager Cocktail">
+          <div class="media-body">
+            <h5 class="mt-0 mb-1">Voyager Cocktail</h5>
+            <ul>
+                <li>2 ounces gold rum</li>  
+                <li>1/2 ounce lime juice</li> 
+                <li>1/2 ounce Benedictine</li> 
+                <li>1/2 ounce Falernum</li> 
+                <li>Dash of angostura bitters</li> 
+                <li>1 lime wedge</li> 
+              </ul>
+          <h3>In a cocktail shaker, shake all ingredients with ice and strain into an ice-filled short glass. Garnish with a lime wedge.</h3>
+          </div>
+        </li>
+      </ul>
+  </div>
+
+    <!-- Footer, just another grid, with a class added for custom styling -->
+<div class="row align-items-center">
+    <div class="col">
+        <a class=footerlogo>DD</a>
+    </div>
+    <div class="col1">
+        <a class="btn btn-outline-dark btn-sm" href="https://www.instagram.com/thedrinkingdilettante/">
+            Follow<i class="fab fa-instagram"></i>
+        </a> 
+    </div>
+</div>
+   
+</body>
+</html>

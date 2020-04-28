@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drinking Dilettante</title>
+
+     <!-- Google Fonts | font-family: 'Reenie Beanie', cursive;
+font-family: 'Halant', serif;, cursive; -->
+    <link href="https://fonts.googleapis.com/css2?family=Halant:wght@300&family=Reenie+Beanie&display=swap" rel="stylesheet">     
+    
+    <!-- Font Awesome -->
+    <!--    <i class="fab fa-instagram"></i>
+    <i class="far fa-envelope"></i>  -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+ 
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+ 
+     <!-- My own CSS -->
+    <link rel="stylesheet" href="styles.css">    
+</head>
+
+<body>
+  <!-- Navbar -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar -->
+    <!-- I'm using the "navbar-light" color scheme, and a custom background color, defined in my styles.css -->
+    <!-- Because the navbar has a "container" inside, it has gutters (spacing) on the left and right -->
+    <!-- https://getbootstrap.com/docs/4.4/components/navbar/#containers -->
+    <nav class="navbar navbar-expand-sm navbar-light">
+        <div class="container">
+          <a class="navbar-brand disabled" href="#">DD</a>
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+            <!-- The "ml-auto" means - set the left margin as high as you can, automatically -->
+            <!-- This causes the links to move to the right -->
+            <!-- https://getbootstrap.com/docs/4.4/utilities/flex/#auto-margins -->
+            <div class="navbar-nav mr-auto">
+              <a class="nav-item nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+              <a class="nav-item nav-link" href="page2.html">Featured Recipes</a>
+            </div>
+            <div class="navbar-nav ml-auto">
+              <a class="btn btn-outline-dark btn-lg disabled" href="page3.html">Subscribe</a>
+            </div>
+          </div>
+        </div>
+      </nav>
+
+    <!-- Full width Jumbotron -->
+    <!-- https://getbootstrap.com/docs/4.4/components/jumbotron/ -->
+    <div class="jumbotron2 jumbotron-fluid">
+        <div class="container">
+          <h1 class="display-4">Have a drink with us</h1 class="display-4">
+        </div>
+    </div>
+
+    <div class="container text-center">
+        <h4>Join our email list to receive the newest recipes in your inbox</h4>
+      </div>
+  
+      <div class="container my-5">
+        <form netlify>
+          <div class="form-group">
+            <label for="name">Your Name</label>
+            <input type="text" class="form-control" id="name" name="name">
+          </div>
+          <div class="form-group">
+            <label for="email">Email Address</label>
+            <input type="email" class="form-control" id="email" name="email">
+            <small class="form-text text-muted">You may unsubscribe at any time.</small>
+          </div>
+          <div class="form-group">
+            <label>What would you like to see more of?</label>
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" name="SeeMore" id="seemoreRecipes" value="recipes" checked>
+              <label class="form-check-label" for="seemoreRecipes">
+                Recipes
+              </label>
+            </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="SeeMore" id="seemoreAbout" value="about" checked>
+                <label class="form-check-label" for="seemoreAbout">
+                About The Drinking Dilettante
+                </label>
+              </div>
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" name="SeeMore" id="seemoreLifestyle" value="lifestyle" checked>
+                <label class="form-check-label" for="seemoreLifestyle">
+                Other Lifestyle Content
+                </label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-dark">Submit</button>
+        </form>
+      </div>
+  
+      <hr class="my-4">
+
+    <!-- Footer, just another grid, with a class added for custom styling -->
+<div class="row align-items-center">
+    <div class="col">
+        <a class=footerlogo>DD</a>
+    </div>
+    <div class="col1">
+        <a class="btn btn-outline-dark btn-sm" href="https://www.instagram.com/thedrinkingdilettante/">
+            Follow<i class="fab fa-instagram"></i>
+        </a> 
+    </div>
+</div>
+   
+</body>
+</html>
