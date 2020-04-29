@@ -132,3 +132,8 @@ h3{
     margin-top: 0.5rem!important;
     margin-bottom: 0.5rem!important;
 }
+
+div.col{
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
