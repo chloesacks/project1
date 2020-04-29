@@ -128,12 +128,7 @@ h3{
     margin-top: 2rem;
 }
 
-.my-5{
-    margin-top: 0.5rem!important;
-    margin-bottom: 0.5rem!important;
-}
-
-div.col{
-    padding-top: 1rem;
-    padding-bottom: 1rem;
+.row {
+    margin-top: 4rem;
+    margin-bottom: 4rem;
 }
