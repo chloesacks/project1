@@ -27,7 +27,6 @@ body{
     padding-left: 25px;
 }
 .jumbotron {
-    /* Background */
     background-attachment: fixed;
     background-image: url(marble.jpg);
     background-repeat: no-repeat;
@@ -103,18 +102,6 @@ i.fab.fa-instagram{
 p{
     margin-bottom: 2rem;
     font-style: italic;
-}
-
-.mr-3{
-    width: 300px;
-    height: 300px;
-    margin-top: 1.5rem;
-    margin-right: 1.5rem!important;
-}
-
-.mb-1{
-    margin-top: 2rem!important;
-    font-size: xx-large;
 }
 
 li{
